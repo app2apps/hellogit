@@ -8,7 +8,7 @@
 3. Account Setting 에서 생성된 SSH KEY 삭제
 4. git bash 실행
    mkdir .ssh
-   cd .ssh
+   cd .ssh 
    ssh-keygen -t rsa -C "app2apps@naver.com"
    ls -l 해보면
    id-rsa
